@@ -1,14 +1,10 @@
-# AI Studio Demo Steps
+# Google AI Studio Demos
+Just some quick helpers for MLHers running the Intro to Google AI Studio workshop.
 
-1. Grab an API Key and replace the value in `.env`
+1. Grab an API Key from mlh.link/aistudio and replace the value in `.env`
+   - Also update your hackathon name and the url you'd like to use for url_context.
+   - You can type these in manually if you prefer!
 2. Set up your Python environment:
-
-   **Option A: Using `uv` (Recommended)**
-   ```bash
-   uv sync
-   ```
-
-   **Option B: Using traditional `venv` and `pip`**
 
    Create and activate a virtual environment:
    ```bash
